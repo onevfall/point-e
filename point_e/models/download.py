@@ -26,7 +26,7 @@ MODEL_PATHS = {
 
 @lru_cache()
 def default_cache_dir() -> str:
-    return os.path.join(os.path.abspath(os.getcwd()), "point_e_model_cache")
+    return os.path.join(os.path.abspath(os.getcwd()), "custom/threestudio-point-e/point-e/cache")
 
 
 def fetch_file_cached(
